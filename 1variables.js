@@ -13,11 +13,14 @@ let flag = 1;
 const x = 100;
 const y = 50;
 
-console.log(10);
-console.log("sparsh");
-console.log(score);
+var user = {
+  name: "sparsh",
+  company: "Dont have",
+  age: 23,
+};
 
-console.log(x, y);
+console.log(user);
+console.log(user.name);
+console.log(user.company);
+console.log(user.age);
 
-const z = undefined;
-console.log(z);

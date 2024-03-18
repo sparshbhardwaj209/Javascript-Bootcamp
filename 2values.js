@@ -1,5 +1,8 @@
 // Different types of values we can store in JS is:-
 
+
+// Data Types:-
+
 /****
  *
  * 1. Number: 10, 100, 1000, -2, 3.6
@@ -16,9 +19,14 @@
  * 
  * 5. Objects: <key, value>
  *    Eg: {
- *              name: "Sparsh",
+ *              name
+ * : "Sparsh",
  *              company: "Nowhere",
  *              positionWants: "Software Development Engineer"
  *        }
+ * 
+ * 6. Null: It shows the sense of Emptyness.
  *
+ * 
+ *   
  */
