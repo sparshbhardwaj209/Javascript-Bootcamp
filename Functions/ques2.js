@@ -27,7 +27,7 @@
 // let num = 11;
 function prime(num) {
   let res = true;
-  for (i = 2; i < num; i++) {
+  for (i = 2; i * i <= num; i++) {
     if (num % 2 == 0) {
       res = false;
       console.log("Non-prime");
@@ -39,4 +39,4 @@ function prime(num) {
   }
 }
 
-prime(13);
+prime(12);
